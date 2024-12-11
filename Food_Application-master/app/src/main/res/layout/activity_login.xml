@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgforegn"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_default"
+        android:elevation="3dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/btnbacklogin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:padding="8dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/lbTieude"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Đăng nhập / Đăng ký"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/btnhelp"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/baseline_question_mark_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:src="@drawable/baseline_fastfood_24" />
+
+        <LinearLayout
+            android:id="@+id/loginbangmatkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edtUsername_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/background_rounded_corner_gray"
+                android:drawableStart="@drawable/baseline_phone_24"
+                android:drawablePadding="16dp"
+                android:hint="@string/lbuser_name_and_email"
+                android:inputType="text"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/background_rounded_corner_gray"
+                android:drawablePadding="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_rounded_corner_gray"
+                    android:drawableStart="@drawable/baseline_key_24"
+                    android:drawablePadding="16dp"
+                    android:hint="@string/lb_input_password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/ic_hiddenpass"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="3dp"
+                    android:src="@drawable/ic_eyes_hidden" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_rounded_corner_gray"
+                    android:drawableStart="@drawable/ic_pipe"
+                    android:gravity="center"
+                    android:paddingEnd="10dp"
+                    android:text="@string/forgotpass"
+                    android:textColor="@color/blue_700"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnDangNhap"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/background_rounded_corner_gray"
+                android:backgroundTint="@color/primary"
+                android:gravity="center"
+                android:text="@string/lbdangnhap"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/logindefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtphonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/background_rounded_corner_gray"
+                android:drawableStart="@drawable/baseline_phone_24"
+                android:drawablePadding="16dp"
+                android:hint="@string/lbnumberphone"
+                android:inputType="phone"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/btnTieptuc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/background_rounded_corner_gray"
+                android:gravity="center"
+                android:text="@string/lb_tieptuc"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnLoginMatKhau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:padding="3dp"
+                android:text="@string/lb_dangnhap_matkhau"
+                android:textColor="#03A9F4"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#9E8F8F" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="#FFFFFF"
+                android:text="HOẶC" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#9E8F8F" />
+
+        </LinearLayout>
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/btnLoginShopee"-->
+        <!--            style="@style/SocialLoginButton"-->
+        <!--            android:backgroundTint="@color/white"-->
+        <!--            android:drawableStart="@drawable/baseline_shopping_cart_24"-->
+        <!--            android:text="Tiếp tục với Shopee"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="14sp" />-->
+
+        <TextView
+            android:id="@+id/btnLoginGoogle"
+            style="@style/SocialLoginButton"
+            android:drawableStart="@drawable/ic_google"
+            android:text="@string/lb_tieptuc_voi_gg"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/btnLoginFacebook"
+            style="@style/SocialLoginButton"
+            android:drawableStart="@drawable/ic_facebook"
+            android:text="@string/lb_tieptuc_fb"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/btnLoginApple"
+            style="@style/SocialLoginButton"
+            android:drawableStart="@drawable/ic_apple"
+            android:text="@string/lb_tieptuc_apple"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lb_policyagreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="0dp"
+            android:text="@string/notelogin4"
+            android:textAlignment="center"
+            android:textColor="#A29696"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/btnChinhsach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titlechinhsach"
+            android:textColor="#03A9F4"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</LinearLayout>

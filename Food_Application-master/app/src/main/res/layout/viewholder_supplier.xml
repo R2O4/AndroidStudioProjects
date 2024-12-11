@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemSupplierLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/background_cart"
+    android:elevation="3dp">
+
+    <ImageView
+        android:id="@+id/imvPhotoSupplier"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_shop_hadilao" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtNameSupplier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shop_name"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/baseline_verified_user_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/txtratingSupplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="@string/_4_7"
+                android:textColor="@color/gray_300"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/baseline_star_24" />
+
+            <TextView
+                android:id="@+id/txtdistanceSupplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:drawablePadding="10dp"
+                android:text="@string/_0_6km"
+                android:textColor="@color/gray_300"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/baseline_horizontal_rule_24" />
+
+            <TextView
+                android:id="@+id/txttimeSupplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texttime"
+                android:drawablePadding="10dp"
+                android:textColor="@color/gray_300"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/baseline_horizontal_rule_24" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
