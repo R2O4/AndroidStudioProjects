@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhận xét công cụ Android Studio: "
+        android:textSize="25sp"/>
+
+
+    <RadioButton
+        android:id="@+id/radTuongdoitot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tương đối tốt"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:id="@+id/radTot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tốt"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:id="@+id/radRatTot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rất Tốt"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:id="@+id/radTuyetVoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuyệt Vời"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnVote2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chọn"
+        android:textSize="20sp"
+        android:backgroundTint="#0005FF"/>
+
+    <TextView
+        android:id="@+id/txtVote2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FA1100"
+        android:padding="5dp"
+        android:text="Ban Chon: ..."
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
+

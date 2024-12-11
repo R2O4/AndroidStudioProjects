@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BaiTap</string>
+    <string-array name="foods">
+        <item>Bun dau</item>
+        <item>Bun mieng</item>
+        <item>Bun mang</item>
+        <item>Bun quay</item>
+        <item>Bun thit nuong</item>
+        <item>Bun bo</item>
+        <item>Bun oc</item>
+        <item>Bun thit bo</item>
+        <item>Bun dau mam tom</item>
+        <item>Bun</item>
+        <item>Bun tre</item>
+        <item>Bun dau nuoc mam</item>
+        <item>Bun ca</item>
+
+    </string-array>
+</resources>

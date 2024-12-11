@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn thích xem phim gì?"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chkFlim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flim +"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/chkFTPplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fpt play"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/chkYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Youtube"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btnVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn"
+        android:textSize="26sp"
+        android:layout_gravity="center"
+        android:backgroundTint="#009688"/>
+
+    <TextView
+        android:id="@+id/txtVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bạn chọn: ..."
+        android:textSize="26dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity5">
+
+    <EditText
+        android:id="@+id/edtPhonenumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:textSize="26sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIAL"
+                android:textSize="26sp"
+                android:backgroundTint="#E91E63"/>
+
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL"
+                android:textSize="26sp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="#4CAF50"/>
+
+    </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imvPhoto"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_background"
+                />
+
+            <Button
+                android:id="@+id/btnCapture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAPTURE"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:backgroundTint="#FF9800"/>
+
+</LinearLayout>

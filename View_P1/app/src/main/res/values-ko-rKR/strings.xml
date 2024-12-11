@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">보기_P1</string>
+    <string name="new_user_register_here">새로운 사용자? 여기에서 등록하세요.</string>
+    <string name="login">로그인</string>
+    <string name="password">비밀번호:</string>
+    <string name="email">이메일:</string>
+    <string name="ng_nh_p">로그인</string>
+
+</resources>

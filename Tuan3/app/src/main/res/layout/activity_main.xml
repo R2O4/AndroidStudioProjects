@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XML ONCLICK"
+        android:textSize="12sp"
+        android:onClick="sayHello"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XML DDD"
+        android:textSize="12sp"
+        android:onClick="sayHello2"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnClick2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valorant"
+        android:textSize="12sp"
+        android:onClick="sayHello3"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnClick3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valorant009"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnClick5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valorant0100"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnClick6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valorant3000"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#673AB7"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnClick8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valorant6000"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#FFC107"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnClick9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valorant700"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomDiaLog"
+        android:textSize="12sp"
+        android:onClick="sayHello4"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnBottomSheetDiaLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Sheet Dialog"
+        android:textSize="12sp"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
